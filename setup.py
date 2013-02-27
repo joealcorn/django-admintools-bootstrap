@@ -5,7 +5,8 @@ django-admin-tools fork
 from setuptools import setup, find_packages
 
 install_requires = [
-    'django-admin-tools>=0.4.1',
+    # THIS BREAKS DUE TO BAD DOWNLOAD LINK
+    # 'django-admin-tools>=0.4.1',
     'BeautifulSoup>=3.2.0',
     'django-appconf>=0.4.1',
     'versiontools>=1.8.2',
